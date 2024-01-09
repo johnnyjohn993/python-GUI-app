@@ -1,0 +1,4 @@
+##notes
+put in terminal in vs code to save app you may remove --noconsole to eliminate windows defender prompt but we can exclude this in windows defender via folder ;
+or have the black cd background run when the app is running
+pyinstaller --onefile --noconsole your_script_name.py
