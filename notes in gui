@@ -4,7 +4,7 @@ or have the black cd background run when the app is running
 pyinstaller --onefile --noconsole your_script_name.py
 
 
-2.for faster app loading plus the icon name, script name
+2.for py case terminal, no black background cd and faster app loading plus the icon name, script name
 py -m PyInstaller --noconsole --icon="C:\Users\john.jayme\Documents\Personal projects\Inqiury Notes App\NE Inquiry.ico" "NE Inquiry.py"
 
 3. sample case of importing same folder plus with respective class give you are editing on another file:
