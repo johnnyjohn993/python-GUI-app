@@ -7,3 +7,13 @@ pyinstaller --onefile --noconsole your_script_name.py
 2.for faster app loading plus the icon name, script name
 py -m PyInstaller --noconsole --icon="C:\Users\john.jayme\Documents\Personal projects\Inqiury Notes App\NE Inquiry.ico" "NE Inquiry.py"
 
+3. sample case of importing same folder plus with respective class:
+from NE_Inquiry import InquiryApp
+
+# Create an instance of the InquiryApp class
+app = InquiryApp()
+
+# Access the logo_path attribute
+logo_path = app.logo_path
+print(logo_path)
+
